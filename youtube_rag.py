@@ -1,8 +1,3 @@
-"""
-YouTube RAG (Retrieval-Augmented Generation) System
-This system extracts subtitles from YouTube videos, chunks them, 
-stores in FAISS vector database, and answers user questions using Groq LLM.
-"""
 
 import os
 import subprocess
