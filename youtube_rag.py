@@ -340,11 +340,8 @@ def youtube_rag(youtube_url: str):
 # ENTRY POINT
 # ============================================================================
 if __name__ == "__main__":
-    # REPLACE THIS WITH YOUR YOUTUBE VIDEO URL
+   
     YOUTUBE_URL = "https://www.youtube.com/watch?v=gvnye8U30bc"
-    
-    # Uncomment and add your URL:
-    # YOUTUBE_URL = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     
     # Start the RAG system
     youtube_rag(YOUTUBE_URL)
